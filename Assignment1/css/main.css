@@ -1,0 +1,104 @@
+body {
+  border-top: 50px solid #8FCC7E;
+  border-bottom: 15px solid #0E8013;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2 {
+    font-family: "Arial", serif;
+    font-style: italic;
+    font-size: 38px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 75px;
+
+}
+
+h4{
+    font-family: "arial", sans-serif;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.byline {
+    font-family: "Arial", serif;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.bodyparagraph {
+    font-family: "arial", sans-serif;
+    margin-left: 350px;
+    margin-right: 375px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.caption{
+  font-family: "arial", sans-serif;
+  font-size: 13px;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image2{
+  margin-top: 15px;
+  margin-bottom: -6px;
+}
+
+
+#images{
+  margin-right: auto;
+  margin-left:auto;
+  padding: 20px 20px;
+  max-width: 650px;
+  background-color: #C5FDC8;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  border-top:1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+}
+
+.imagescontainer{
+  	clear: both;
+    margin-bottom: 20px;
+  	overflow: auto;
+}
+
+.logo{
+  width: 64px;
+  margin-right: 20px;
+  float: left;
+}
+
+.iconcaption{
+  font-size: 13px;
+}
+
+@media (max-width: 600px ) {
+
+	body {
+		padding: 0px 20px;
+	}
+
+  .image2{
+    width: 110%;
+    display: block;
+    margin-left: -15px;
+  }
+
+	.iconText {
+	  margin-left: 80px;
+	}
+
+  .bodyparagraph{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
